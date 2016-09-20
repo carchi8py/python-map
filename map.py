@@ -5,4 +5,4 @@ map.simple_marker(location = [45.3288, -121.6625], popup = "Mt. Hood", marker_co
 map.simple_marker(location = [45.3311, -121.7311], popup = "Timberlake Lodge", marker_color="green")
 
 #TODO: save is deprecated we need to fix this later
-map.create_map(path="test.html")
+map.save("test.html")
